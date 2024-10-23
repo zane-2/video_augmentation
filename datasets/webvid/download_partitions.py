@@ -2,7 +2,7 @@ import requests
 from tqdm import tqdm
 import os
 
-num_paritions = 200
+num_paritions = 100000
 
 os.makedirs("partitions", exist_ok=True)
 
